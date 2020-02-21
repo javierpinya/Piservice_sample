@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.javierpinya.piservice">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_oil_tank"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.RenderizarImagenActivity"></activity>
+        <activity android:name=".Activities.CapturaFotoActivity" />
+        <activity android:name=".Activities.ResultadoBuscarInspeccionActivity" />
+        <activity android:name=".Activities.ResultadoBuscarTractoraActivity" />
+        <activity android:name=".Activities.ResultadoBuscarCisternaActivity" />
+        <activity android:name=".Activities.CompartimentosActivity" />
+        <activity android:name=".Activities.BuscarCisternaActivity" />
+        <activity android:name=".Activities.NuevaInspeccionActivity" />
+        <activity android:name=".Activities.BuscarInspeccionActivity" />
+        <activity android:name=".Activities.BuscarTractoraActivity" />
+        <activity android:name=".Activities.DashboardActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

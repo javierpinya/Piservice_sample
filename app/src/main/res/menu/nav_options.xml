@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_dashboard"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Dashboard"/>
+
+        <item
+            android:id="@+id/menu_buscart"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Buscar Tractora"/>
+
+        <item
+            android:id="@+id/menu_buscarc"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Buscar Cisterna"/>
+
+        <item
+            android:id="@+id/menu_buscari"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Buscar Inspección"/>
+
+        <item
+            android:id="@+id/menu_nuevai"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Nueva Inspección"/>
+
+    </group>
+
+    <item android:title = "Otras opciones">
+        <menu>
+
+            <item
+                android:id="@+id/menu_calculadora"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Calculadora"/>
+            <item
+                android:id="@+id/menu_salir"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Salir"/>
+
+            <item
+                android:id="@+id/menu_forget_logout"
+                android:title="Cerrar sesión"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+        </menu>
+
+    </item>
+
+</menu>

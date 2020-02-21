@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Piservice</string>
+    <string name="a_login">Empezar</string>
+    <string name="email">email</string>
+    <string name="pass">pass</string>
+    <string name="recordar">Recordar</string>
+    <string name="login">Login</string>
+    <string name="buscar_tractora">Buscar Tractora</string>
+    <string name="buscar_inspeccion">Buscar Inspección</string>
+    <string name="nueva_inspeccion">Nueva Inspección</string>
+    <string name="buscar_cisterna">Buscar Cisterna</string>
+    <string name="tractora">Tractora</string>
+    <string name="cisterna">Cisterna</string>
+    <string name="inspeccion">Inspección</string>
+    <string name="buscar">Buscar</string>
+    <string name="altura_sonda">Altura sonda</string>
+    <string name="cis_ejemplo">R0000AAA</string>
+    <string name="trac_ejemplo">E0000AAA</string>
+
+    <!--strings check list documentacion conductor y camion-->
+    <string name="incidenciasInspeccion">INCIDENCIAS?</string>
+    <string name="siguiente2">CONTINUAR</string>
+    <string name="albaran">ALBARÁN</string>
+    <string name="titulo_docyprocesodecarga">CHECKLIST CARGADERO</string>
+    <string name="docyprocesodecarga">CHECKLIST DEL VEHÍCULO</string>
+    <string name="editar_anomalias">Editar Anomalías</string>
+    <string name="permiso_conducir">PERMISO CIRCULACIÓN</string>
+    <string name="adrcond">ADR CONDUCTOR</string>
+    <string name="tc2c">TC2</string>
+    <string name="itvt">ITV TRACTORA</string>
+    <string name="itvc">ITV CISTERNA</string>
+    <string name="adrt">ADR TRACTORA</string>
+    <string name="adrc">ADR CISTERNA</string>
+    <string name="ficha_seguridad">FICHA SEGURIDAD</string>
+    <string name="tv_empresacalibradora">EMPRESA CALIBRADORA</string>
+    <string name="tv_tablacal">TABLA CALIBRACION</string>
+    <string name="et_tablacal">01/01/2018</string>
+    <string name="transpondert">TRANSPONDER TRAC</string>
+    <string name="transponderc">TRANSPONDER CIST</string>
+    <string name="superficiesuperior">SUPERFICIE SUP. ANTIDESLIZANTE Y UNIFORME</string>
+    <string name="posicionvehiculo">POSICIÓN VEHÍCULO ADECUADA</string>
+    <string name="frenoestacionamiento">FRENO ESTACIONAMIENTO</string>
+    <string name="desconectadobaterias">BATERÍA DESCONECTADA</string>
+    <string name="apagallamas">APAGALLAMAS</string>
+    <string name="movil">MÓVIL DESCONECTADO</string>
+    <string name="interruptoresemergencia">SITUACIÓN INTERRUP EMERG Y FUEGO</string>
+    <string name="scully">TOMA TIERRA</string>
+    <string name="recvap">BOCA MANGUERA GASES</string>
+    <string name="purga">PURGA COMPARTIMENTOS</string>
+    <string name="tagsok">TAGS CORRECTOS</string>
+    <string name="ropa">ROPA CUMPLE NORMATIVA</string>
+    <string name="tv_litroscargados">Litros cargados</string>
+    <string name="tv_volumen_placa">Volumen placa</string>
+    <string name="tv_volumen96">Volumen 96%</string>
+    <string name="tv_diferencia">Diferencia</string>
+    <string name="tv_cumple">Cumple</string>
+    <string name="comentariosfinales">Comentarios</string>
+    <string name="simac">SIMAC</string>
+    <string name="instalacionsimacok">INSTALACIÓN SIMAC</string>
+    <string name="lecturatagsisleta">LECTURA TAGS ISLETA</string>
+    <string name="bajadatags">BAJADA TAGS PLANTA</string>
+
+    <string name="extintor">Extintor</string>
+    <string name="aseo">Aseo</string>
+    <string name="pertiga">Pértiga</string>
+    <string name="baliza">Baliza</string>
+    <string name="neumatico_delantero_d">Neumático del der</string>
+    <string name="neumatico_delantero_i">Neumático del izq</string>
+    <string name="neumatico_trasero_d">Neumático tras der</string>
+    <string name="neumatico_trasero_i">Neumático tras izq</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="compartimentos">COMPARTIMENTOS</string>
+    <string name="btn_ficha_tecnica">VER FICHA TÉCNICA</string>
+    <string name="btn_adr">VER ADR</string>
+    <string name="btn_permiso_circulacion">VER PERMISO CIRCULACIÓN</string>
+    <string name="btn_tablas_calibracion">VER TABLAS CALIBRACIÓN</string>
+    <string name="btn_simac">VER CERTIFICADO SIMAC</string>
+    <string name="btn_guardar">GUARDAR</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

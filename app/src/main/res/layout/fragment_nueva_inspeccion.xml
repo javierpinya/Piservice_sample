@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.NuevaInspeccionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nueva_inspeccion"
+                    android:inputType="none"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="INSP0023"/>
+                <EditText
+                    android:id="@+id/et_matricula"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:inputType="none"
+                    android:text="R0000AAA"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_inspector"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="INSPECTOR"/>
+                <EditText
+                    android:id="@+id/et_inspector"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:inputType="textVisiblePassword" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fechacalibracion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Fecha calibración"
+                    android:inputType="date"/>
+                <EditText
+                    android:id="@+id/fechacalibracioncisterna"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:hint="01/01/2004"
+                    android:inputType="date"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fechaarnes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Fecha arnés"
+                    android:inputType="date"/>
+
+                <EditText
+                    android:id="@+id/et_fechaarnes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:hint="01/01/2019"
+                    android:inputType="date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/extintor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/extintor">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/aseo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aseo">
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pertiga"
+                    android:text="@string/pertiga">
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/baliza"
+                    android:text="@string/baliza">
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/neumatica_delantero_d"
+                    android:text="@string/neumatico_delantero_d">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/neumatico_delantero_i"
+                    android:text="@string/neumatico_delantero_i">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/neumatico_trasero_d"
+                    android:text="@string/neumatico_trasero_d">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/neumatico_trasero_i"
+                    android:text="@string/neumatico_trasero_i">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/transpondercisterna"
+                    android:text="@string/transponderc">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_apagallamas"
+                    android:text="@string/apagallamas">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_scully"
+                    android:text="@string/scully">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_manguera_gases"
+                    android:text="@string/recvap">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_instalacionsimacok"
+                    android:text="@string/instalacionsimacok">
+
+                </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/observaciones"
+                    android:hint="@string/observaciones"
+                    android:inputType="textMultiLine"/>
+
+                <Button
+                    android:id="@+id/btn_guardarinspeccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/btn_guardar"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryText"/>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@android:drawable/ic_menu_camera"
+                android:elevation="4dp"
+                android:contentDescription="submit"
+                android:layout_margin="16dp"
+                android:background="@color/colorAccent"
+                />
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>
